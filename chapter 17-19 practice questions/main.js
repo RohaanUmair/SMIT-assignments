@@ -50,3 +50,12 @@ console.log(reversedStr);
 
 
 
+//printing sum of digits of a number
+let num = 123;
+let sum = 0;
+let numString = num.toString();
+
+for (let i = 0; i < numString.length; i++){
+    sum += parseInt(numString[i]);
+}
+console.log(sum);
